@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment CSS 6</title>
+        <link rel="shortcut icon" href="image /Apple.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin: 0px;
+            }
+             h1,h2,h3,h5,p{
+                font-family: Lato;
+             }
+            nav{
+                position: sticky;
+                top: 0px;
+                background-color: rgb(193, 201, 204);
+                height:40px;
+                padding: 10px;
+            }
+            #div0>img{
+                height: 40px;
+                float: left;
+            }
+            #sec1{
+                float:right;
+                padding-top: px; 
+            }
+            #sec1>a{
+                text-decoration: none;
+                color: black;
+                padding: 10px;  
+            }
+            #sec1>a:hover{
+            background-color: brown;
+            color: white;
+            }
+            #sec1>button{
+                background-color: rgba(250, 218, 201);
+                padding: 10px;
+                border: none;
+            }
+            #sec1>button:hover,button:hover,#sec2>button:hover,#divZ>button:hover,#sec4>button:hover{
+                background-color: rgb(57, 132, 186);
+                border: none;
+                color: rgb(253, 251, 251);
+            }
+            header{
+                background:linear-gradient(to bottom,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url("https://cdn.pixabay.com/photo/2019/05/28/19/43/leaves-4235968_1280.jpg");
+                background-size: cover;
+                background-position: center;
+                padding: 150px;
+                text-align: center;
+                color: white;
+            }
+            header p{
+                margin-top: -10px;
+                margin-bottom: 30px;
+            }
+            header button{
+                border: none;
+                padding: 5px 10px;
+                background-color: rgb(250, 218, 201);
+            }
+            #sec2{
+                text-align: center ;
+                padding: 80px 200px;
+            }
+            #sec2>button{
+                border: none;
+                padding: 5px 10px;
+                background-color: rgb(31, 31, 67);
+                color: white;
+                margin-top: 20px;
+            }
+            #div1{
+                background:linear-gradient(to bottom,rgba(7, 12, 15, 0.6),rgba(13, 30, 36, 0.6)) ,url("https://cdn.pixabay.com/photo/2019/05/28/19/43/leaves-4235968_1280.jpg");
+                background-size: cover;
+                background-position: center;
+                padding: 100px;
+                text-align: center;
+                color: rgba(252, 249, 249, 0.192);
+            }
+            #divZ{
+                text-align: center;
+                padding: 100px;
+                
+            }
+
+            #divZ>div{
+                display: inline-block;
+                height: 200px;
+                margin: 20px;
+                width: 400px;
+            } 
+            #divZ>div>p{
+                border: 2px solid rgb(243, 170, 170);
+                padding: 20px;
+            }
+            #divZ>div>span{
+                position: absolute;
+                font-size: 50px;
+                color: gray;  
+            }
+            #divZ>button{
+                margin-top:40px;
+                border: none;
+                padding: 5px 10px;
+                background-color: rgb(31, 31, 67);
+                color: white;
+            }
+
+
+            #sec4{
+                padding: 50px;
+                background-color: antiquewhite;
+                text-align: center;
+            }
+            #sec4>h3{
+                float: left;
+                margin: -10px  100px;
+            }
+            #sec4>button{
+                float: right;
+                border: none;
+                padding: 5px 10px;
+                background-color: rgb(31, 31, 67);
+                color: white;
+                margin: -10px 100px;
+            }
+            footer{
+                background-color: rgb(27, 172, 183);
+               
+            }
+            footer input{
+                width: 100%;
+                padding: 10px;
+                background-color: transparent;
+                border: 1.5px solid rgb(0, 0, 0);
+            }
+            footer>section{
+                text-align: center;
+                padding: 100px;  
+            }
+            footer>section div{
+                display: inline-block;
+                vertical-align: top;
+                width: 200px;
+                margin: 20px;
+                text-align: left;
+                border-top: 2px solid rgb(9, 9, 9);
+                padding-top: 30px;
+            }
+            footer hr{
+                border: none;
+                background-color: black;
+                height: 2px;
+            }
+            footer a>img{
+                height: 30px;
+            }
+            footer iframe{
+                width: 100%;
+                border: solid black;
+            } 
+            footer a{
+                color: rgb(0, 0, 0);
+                display: block;
+                font-size: 20px;
+                text-transform: uppercase;
+                font-family: HomerSimpson;
+                margin-top: 5px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div id="div0">
+                <img src="https://seeklogo.com/images/C/company-name-logo-FE93EE5177-seeklogo.com.png" alt="">
+            </div>
+            <div id="sec1">
+                <a href="">ABOUT </a>
+                <a href="">PORTFOLIO </a>
+                <a href="">SERVICES</a>
+                <a href="">BLOG</a>
+                <button>GET STARTED</button>
+            </div>
+        </nav>
+        <header>
+            <h1>
+                Classsic. Timeless. Chie.
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ex accusantium facere placeat ipsum vero maiores dolor esse ab ut.
+            </p>
+            <button> GET STARTED &#8594;</button>
+        </header>
+        <section id="sec2">
+            <h2>Our Mission</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dolor! Illo odit ad eos voluptas consectetur aliquid est, 
+                dolorum cumque sequi. Nesciunt odit est iste atque dolorum quos recusandae, porro earum totam nihil quasi accusamus 
+                <span>timeless, unique, and truly theirs.</span>
+            </p>
+            <button>SEE THE PORTFOLIO &#8594;</button>
+
+        </section>
+        <div id="div1">
+            <h1> Happy Clients</h1>
+        </div>
+        <section id="divZ" >
+            <div>
+                <span>&#8220;</span>
+                <p> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur aspernatur expedita voluptate repellendus 
+                    dicta neque incidunt vero tenetur ea blanditiis nulla laudantium temporibus consequatur alias quas architecto,
+                    minima eligendi qui soluta! Debitis aperiam iste odit porro deleniti. Cupiditate consequuntur ut commodi sit 
+                    illum atque fugit ratione sunt architecto unde?
+                </p>
+                <h5>&#8213; XYZ </h5>
+            </div>
+            <div>
+                <span>&#8220;</span>
+                <p> 
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis fugit placeat odit aliquam veritatis
+                    repudiandae quas error doloremque cupiditate distinctio commodi totam consequuntur voluptatem earum ab,
+                    mollitia alias porro! Incidunt rem, mollitia facilis molestias qui quaerat, ea quo deserunt totam harum
+                    tenetur quae iste provident! Officia veniam vel sequi cumque.
+                </p>
+                <h5>&#8213; XYZ </h5>
+            </div>
+            
+            <button>READ MORE TESTIMONIALS ON OUR FACEBOOK PAGE ></button>
+        </section>
+        <section id="sec4">
+            <h3>Your new home awaits.</h3>
+            <button> START THE PROCESS &#8594; </button>
+        </section>
+        <footer>
+            <section>
+                <form action="">
+                    <input type="search"   placeholder="search" required   />
+                </form>
+                <div>
+                    <h2>GET SOCIAL:</h2>
+                    <a target="blank" href="https://www.instagram.com">
+                       <img src="https://cdn.icon-icons.com/icons2/1211/PNG/96/1491580635-yumminkysocialmedia26_83102.png"  alt="instagram"/>
+                    </a> 
+                    <a target="blank" href="https://www.facebook.com">
+                       <img src="https://cdn.icon-icons.com/icons2/642/PNG/512/facebook_icon-icons.com_59205.png"  alt=" facebook"/>
+                    </a> 
+                    <a target="blank" href="https://www.youtube.com">
+                       <img src="https://cdn.icon-icons.com/icons2/1211/PNG/512/1491580651-yumminkysocialmedia28_83061.png"  alt=" youtube"/>
+                    </a>  
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.210209986789!2d77.51298137382945!3d28.473215391300645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea7e051fd949%3A0xefccd5003c9032b6!2sINCAPP%20The%20Coding%20Institute!5e0!3m2!1sen!2sin!4v1708152785792!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <a href="">ABOUT</a>
+                    <a href="">PORTFOLIO</a>
+                    <a href="">SERVICES</a>
+                    <a href="">BLOG</a>
+                    <a href="">GET STARED</a>
+                </div>
+                <div>
+                    <h2>CONTACT:</h2>
+                    <span>757.6575.6867 |</span>
+                    <a href="">rytuuiyi@utu.com</a>
+                </div>
+                <hr>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span> MKW GRAPHICS</span></p>
+            </section>
+        </footer>
+    </body>
+</html>
